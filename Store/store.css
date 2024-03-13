@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 23, 15, 0.65),
+      rgba(47, 23, 15, 0.65)
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.heading p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fda403;
+}
+
+.heading h1 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header {
+  width: 100%;
+  background-color: #321e05dd;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: rgb(204, 187, 89);
+}
+
+.main__start {
+  background-color: #fda403;
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__container {
+  border: 2px solid #f9cf82;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 420px;
+  background-color: #faeed1;
+}
+
+.card__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__heading h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.card__heading p {
+  font-size: 12px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card__lists {
+  margin-top: 20px;
+}
+
+.sunday,
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday {
+  display: flex;
+  margin-top: 14px;
+  border-bottom: 1px solid #fda403;
+}
+
+.sunday__left {
+  margin-right: 240px;
+}
+
+.monday__left {
+  margin-right: 150px;
+}
+
+.tuesday__left {
+  margin-right: 150px;
+}
+
+.wednesday__left {
+  margin-right: 130px;
+}
+
+.thursday__left {
+  margin-right: 142px;
+}
+
+.friday__left {
+  margin-right: 160px;
+}
+
+.saturday__left {
+  margin-right: 145px;
+}
+
+.card__location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card__end {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__end {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.main__end__image {
+  position: relative;
+}
+
+.main__end__image img {
+  margin-top: 100px;
+  width: 640px;
+  height: 280px;
+}
+
+.box {
+  position: absolute;
+  width: 540px;
+  height: 200px;
+  background-color: #faeed1;
+  bottom: -680px;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.box__start {
+  margin-bottom: 10px;
+}
+
+.box__start p {
+  font-size: 12px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.box__start h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.box__end p {
+  font-size: 12px;
+}
+
+.box__end__last__text {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 200px;
+  width: 100%;
+  background-color: #321e05dd;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  padding: 30px;
+  color: white;
+  font-size: 10px;
+}

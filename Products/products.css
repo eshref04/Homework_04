@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 23, 15, 0.65),
+      rgba(47, 23, 15, 0.65)
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.heading p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fda403;
+}
+
+.heading h1 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header {
+  width: 100%;
+  background-color: #321e05dd;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: rgb(204, 187, 89);
+}
+
+.main__above {
+  position: relative;
+}
+
+.main__above__image img {
+  width: 400px;
+  height: 300px;
+  border-radius: 4px;
+  margin: 80px 550px;
+}
+
+.main__above__heading {
+  background-color: #faeed1;
+  padding: 20px;
+  width: 300px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  right: 380px;
+}
+
+.main__above__heading p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.main__above__heading h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.main__above__end__text {
+  width: 540px;
+  background-color: #faeed1;
+  padding: 16px;
+  position: absolute;
+  bottom: 40px;
+  left: 480px;
+  border-radius: 4px;
+}
+
+.main__above__end__text p {
+  font-size: 10px;
+}
+
+.main__middle__image {
+  position: relative;
+}
+
+.main__middle__image img {
+  width: 400px;
+  height: 300px;
+  border-radius: 4px;
+  margin: 80px 550px;
+}
+
+.main__middle__heading {
+  position: absolute;
+  background-color: #faeed1;
+  padding: 20px;
+  width: 300px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  left: 480px;
+}
+
+.main__middle__heading h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.main__middle__heading p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.main__middle__end__text {
+  width: 540px;
+  background-color: #faeed1;
+  padding: 16px;
+  position: absolute;
+  bottom: 40px;
+  left: 480px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+.main__down {
+  position: relative;
+}
+
+.main__down__image img {
+  width: 400px;
+  height: 300px;
+  border-radius: 4px;
+  margin: 80px 550px;
+}
+
+.main__down__heading {
+  position: absolute;
+  background-color: #faeed1;
+  padding: 20px;
+  width: 380px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  left: 640px;
+}
+
+.main__down__heading h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.main__down__heading p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.main__down__end__text {
+  width: 540px;
+  background-color: #faeed1;
+  padding: 16px;
+  position: absolute;
+  bottom: 40px;
+  left: 480px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: #321e05dd;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
+  color: white;
+  font-size: 10px;
+}

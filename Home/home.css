@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 23, 15, 0.65),
+      rgba(47, 23, 15, 0.65)
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.heading p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fda403;
+}
+
+.heading h1 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header {
+  width: 100%;
+  background-color: #321e05dd;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: rgb(204, 187, 89);
+}
+
+.main__start__image {
+  position: relative;
+}
+
+.main__start__image img {
+  width: 520px;
+  height: 340px;
+  margin-left: 560px;
+  margin-top: 50px;
+  border-radius: 6px;
+}
+
+.coffee__box__container {
+  position: relative;
+  width: 100%;
+  bottom: 390px;
+}
+
+.coffee__box {
+  position: absolute;
+  width: 390px;
+  height: 240px;
+  background-color: #faeed1;
+  padding: 20px;
+  text-align: center;
+  top: 80px;
+  left: 280px;
+  border-radius: 6px;
+}
+
+.coffee__box__heading {
+  margin-bottom: 30px;
+}
+
+.coffee__box__heading p {
+  font-size: 12px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.coffee__box__heading h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.coffee__box__button {
+  position: absolute;
+  width: 140px;
+  bottom: -56px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coffee__box__button button {
+  padding: 20px;
+  background-color: #fda403;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s;
+}
+
+.coffee__box__button button a {
+  text-decoration: none;
+  color: black;
+}
+
+.coffee__box__button button:hover {
+  background-color: #fda503c8;
+}
+
+.main__end {
+  background-color: rgba(235, 171, 12, 0.849);
+  width: 100%;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.main__end__container {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.main__end__container__head {
+  background-color: #faeed1;
+  width: 575px;
+  height: 240px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+}
+
+.main__end__heading {
+  margin: 40px;
+}
+
+.main__end__heading h2 {
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 200;
+}
+
+.main__end__heading p {
+  font-size: 12px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main__end__text p {
+  font-size: 14px;
+  margin-top: 34px;
+}
+
+footer {
+  width: 100%;
+  background-color: #321e05dd;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
+  color: white;
+  font-size: 10px;
+}
